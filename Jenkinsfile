@@ -5,6 +5,7 @@ pipeline
   {
     jdk "Default"
   }
+  stages{
   stage("Build")
   {
     steps
@@ -18,5 +19,6 @@ pipeline
     {
       bat "java Hello"
     }
+  }
   }
 }
